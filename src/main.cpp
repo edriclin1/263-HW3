@@ -54,8 +54,8 @@ int main(int argc, char** argv) {
     else {
         std::cout << "\t> Usage: ./prog_name input_file command" << std::endl;
         std::cout << "\t> Commands:" << std::endl;
-        std::cout << "\t>     0: Balance symbols" << std::endl;
-        std::cout << "\t>     1: Infix to postfix" << std::endl;
+        std::cout << "\t>     -bs: Balance symbols" << std::endl;
+        std::cout << "\t>     -ip: Infix to postfix" << std::endl;
     }
 
     return 0; 
