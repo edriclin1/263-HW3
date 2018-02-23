@@ -165,7 +165,7 @@ std::string loadInput(std::string filename) {
     std::ifstream myfile (filename);
 
     // if file is able to be opened
-    if (myfile.is_open()) {
+    if (myfile.is_open()) { // http://www.cplusplus.com/doc/tutorial/files/
 
         // read line
         std::string line;
